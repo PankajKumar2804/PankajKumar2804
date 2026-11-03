@@ -5,57 +5,34 @@
 
 <p align="center">
   <a href="https://github.com/PankajKumar2804"><img src="https://img.shields.io/badge/GitHub-PankajKumar2804-181717?style=flat-square&logo=github" height="20" alt="GitHub" /></a>
-  <a href="#featured-engineering-projects"><img src="https://img.shields.io/badge/Focus-AI%2FML%20%7C%20Distributed%20Systems-0052CC?style=flat-square" height="20" alt="Focus" /></a>
   <img src="https://img.shields.io/badge/Compliance-HIPAA%20%7C%20SOC%202-0e8a16?style=flat-square" height="20" alt="Compliance" />
   <img src="https://img.shields.io/badge/Location-India-4B0082?style=flat-square" height="20" alt="Location" />
-</p>
-
-<p align="center">
-  <em>Building compliant clinical copilots, deterministic rule engines, and data-intensive backends.</em>
 </p>
 
 </div>
 
 ---
 
-## About
+## Focus
 
-I am a Software Engineer focused on building production-grade AI systems, data pipelines, and backend architectures designed around strict regulatory standards (HIPAA and SOC 2 Type II). Rather than surface-level wrappers, I build end-to-end applications: from zero-trust air-gapped clinical RAG with automated PHI scrubbing and 8-bit quantized embeddings to spatiotemporal sports telemetry and AST-driven rule engines. I focus on write-clean, low-latency code that pairs high throughput with verifiable compliance and auditability.
-
----
-
-## Featured Engineering Projects
-
-### [CareLens-360](https://github.com/PankajKumar2804/carelens-360) — Clinical & Regulatory Copilot on Snowflake
-- **Problem**: Healthcare AI often returns opaque risk scores that clinicians cannot safely act upon at the point of care.
-- **Implementation**: Built a Patient/Member 360 data platform on Snowflake implementing deterministic clinical arithmetic (LACE index calculations) where every row persists its exact mathematical breakdown alongside citation-backed regulatory query answering.
-- **Tech Stack**: Snowflake, Python, Synthetic Health Data, CoCo CLI, Clinical Code Mapping (ICD-10, LOINC), HIPAA/SOC 2 compliant data access.
-
-### [Olifant / Healthcare-RAG](https://github.com/PankajKumar2804/healthcare-rag) — Air-Gapped Zero-Trust Clinical RAG
-- **Problem**: Deploying LLMs on hospital networks without exposing Patient Health Information (PHI) to external APIs or requiring heavy GPU clusters.
-- **Implementation**: Engineered an air-gapped retrieval pipeline using Ollama (Llama 3) for Knowledge Graph extraction, Microsoft Presidio for automated PHI scrubbing to satisfy HIPAA safeguards, Corrective RAG (CRAG) with verified clinical domain fallback, and 8-bit vector quantization (TurboVec) for fast inference on edge hardware.
-- **Tech Stack**: LangChain, Ollama, Neo4j, Microsoft Presidio (HIPAA PHI Redaction), HuggingFace embeddings, Tesseract OCR.
-
-### [CLXI Engine](https://github.com/PankajKumar2804/clxi) — Technique Intelligence & Match Telemetry
-- **Recognition**: Built for the *Inside the Game* Hackathon hosted by **Microsoft Azure AI Foundry & the Premier League**.
-- **Implementation**: Computer vision and telemetry engine computing real-time spatiotemporal tracking, ball strike velocity up to 114.7 km/h, and game rhythm metrics ($CvC$) for broadcast studio graphics, alongside automated technique scoring for athletes.
-- **Tech Stack**: Python 3.13, Azure AI Foundry, OpenCV, FastAPI, Spatiotemporal Kinematics.
-
-### [AST Rule Engine](https://github.com/PankajKumar2804/Application-1-Rule-Engine-with-AST) — Deterministic Business Logic Evaluator
-- **Implementation**: Dynamic evaluation engine that parses composite conditional statements into Abstract Syntax Trees for sub-millisecond rule validation and schema verification under high throughput.
-- **Tech Stack**: Python, AST Parsers, Data Structures.
+Software Engineer building production AI systems, data pipelines, and backends designed for **HIPAA** and **SOC 2 Type II** environments. Focused on deterministic execution, air-gapped zero-trust architectures, and high-throughput rule engines.
 
 ---
 
-## Technical Capabilities
+## Featured Work
 
-| Domain | Technologies & Infrastructure |
-| :--- | :--- |
-| **Languages** | Python (AsyncIO, FastAPI), TypeScript / Node.js, Rust, SQL, Java |
-| **AI / ML & Vision** | LangChain, Neo4j (GraphRAG), PyTorch, HuggingFace, Ollama, scikit-learn, OpenCV |
-| **Data & Cloud** | Snowflake, Apache Kafka, Apache Spark, PostgreSQL, Redis, Docker, Azure |
-| **Security & Compliance** | HIPAA (PHI redaction, Presidio), SOC 2 Type II controls, Audit Logging, Zero-Trust Air-Gap |
-| **Standards & Workflows** | FHIR (Medplum contributor), n8n Automation, CI/CD, Event-Driven Architecture |
+- **[CareLens-360](https://github.com/PankajKumar2804/carelens-360)** — Clinical & regulatory copilot on Snowflake using deterministic risk arithmetic (LACE index) and cited medical documentation.
+- **[Olifant / Healthcare-RAG](https://github.com/PankajKumar2804/healthcare-rag)** — Air-gapped, zero-trust clinical RAG with automated HIPAA PHI redaction (Microsoft Presidio), Neo4j knowledge graphs, and 8-bit quantized embeddings.
+- **[CLXI Engine](https://github.com/PankajKumar2804/clxi)** — Match reconstruction and spatiotemporal telemetry platform built for Microsoft Azure AI Foundry & the Premier League hackathon.
+- **[AST Rule Engine](https://github.com/PankajKumar2804/Application-1-Rule-Engine-with-AST)** — Sub-millisecond conditional evaluation engine parsing composite business rules into dynamic AST nodes.
+
+---
+
+## Core Stack
+
+- **Languages:** Python (FastAPI, AsyncIO), TypeScript, Rust, SQL
+- **AI & Data:** LangChain, Neo4j (GraphRAG), PyTorch, Ollama, Snowflake, Apache Kafka, Redis, PostgreSQL, Docker
+- **Compliance & Security:** HIPAA (PHI de-identification), SOC 2 Type II controls, Audit Trails, Zero-Trust Air-Gap
 
 ---
 
@@ -72,12 +49,10 @@ I am a Software Engineer focused on building production-grade AI systems, data p
 
 ---
 
-## Connect & Collaborate
+## Connect
 
-Open to discussions around software engineering roles, distributed systems, and open-source collaboration.
-
-- **GitHub**: [@PankajKumar2804](https://github.com/PankajKumar2804)
-- **Discussions / Issues**: Feel free to reach out via GitHub issues or project repositories.
+- **GitHub:** [@PankajKumar2804](https://github.com/PankajKumar2804)
+- Feel free to open an issue or connect on project repositories.
 
 <div align="center">
   <br/>
