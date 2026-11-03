@@ -6,11 +6,12 @@
 <p align="center">
   <a href="https://github.com/PankajKumar2804"><img src="https://img.shields.io/badge/GitHub-PankajKumar2804-181717?style=flat-square&logo=github" height="20" alt="GitHub" /></a>
   <a href="#featured-engineering-projects"><img src="https://img.shields.io/badge/Focus-AI%2FML%20%7C%20Distributed%20Systems-0052CC?style=flat-square" height="20" alt="Focus" /></a>
+  <img src="https://img.shields.io/badge/Compliance-HIPAA%20%7C%20SOC%202-0e8a16?style=flat-square" height="20" alt="Compliance" />
   <img src="https://img.shields.io/badge/Location-India-4B0082?style=flat-square" height="20" alt="Location" />
 </p>
 
 <p align="center">
-  <em>Building clinical copilots, deterministic rule engines, and data-intensive backends.</em>
+  <em>Building compliant clinical copilots, deterministic rule engines, and data-intensive backends.</em>
 </p>
 
 </div>
@@ -19,7 +20,7 @@
 
 ## About
 
-I am a Software Engineer focused on building production-grade AI systems, data pipelines, and backend architectures. Rather than surface-level wrappers, I build end-to-end applications: from zero-trust air-gapped clinical RAG with 8-bit quantized embeddings to spatiotemporal sports telemetry and AST-driven rule engines. I focus on write-clean, low-latency code that solves strict domain constraints.
+I am a Software Engineer focused on building production-grade AI systems, data pipelines, and backend architectures designed around strict regulatory standards (HIPAA and SOC 2 Type II). Rather than surface-level wrappers, I build end-to-end applications: from zero-trust air-gapped clinical RAG with automated PHI scrubbing and 8-bit quantized embeddings to spatiotemporal sports telemetry and AST-driven rule engines. I focus on write-clean, low-latency code that pairs high throughput with verifiable compliance and auditability.
 
 ---
 
@@ -28,12 +29,12 @@ I am a Software Engineer focused on building production-grade AI systems, data p
 ### [CareLens-360](https://github.com/PankajKumar2804/carelens-360) — Clinical & Regulatory Copilot on Snowflake
 - **Problem**: Healthcare AI often returns opaque risk scores that clinicians cannot safely act upon at the point of care.
 - **Implementation**: Built a Patient/Member 360 data platform on Snowflake implementing deterministic clinical arithmetic (LACE index calculations) where every row persists its exact mathematical breakdown alongside citation-backed regulatory query answering.
-- **Tech Stack**: Snowflake, Python, Synthetic Health Data, CoCo CLI, Clinical Code Mapping (ICD-10, LOINC).
+- **Tech Stack**: Snowflake, Python, Synthetic Health Data, CoCo CLI, Clinical Code Mapping (ICD-10, LOINC), HIPAA/SOC 2 compliant data access.
 
 ### [Olifant / Healthcare-RAG](https://github.com/PankajKumar2804/healthcare-rag) — Air-Gapped Zero-Trust Clinical RAG
 - **Problem**: Deploying LLMs on hospital networks without exposing Patient Health Information (PHI) to external APIs or requiring heavy GPU clusters.
-- **Implementation**: Engineered an air-gapped retrieval pipeline using Ollama (Llama 3) for Knowledge Graph extraction, Microsoft Presidio for automated PHI scrubbing, Corrective RAG (CRAG) with verified clinical domain fallback, and 8-bit vector quantization (TurboVec) for fast inference on edge hardware.
-- **Tech Stack**: LangChain, Ollama, Neo4j, Microsoft Presidio, HuggingFace embeddings, Tesseract OCR.
+- **Implementation**: Engineered an air-gapped retrieval pipeline using Ollama (Llama 3) for Knowledge Graph extraction, Microsoft Presidio for automated PHI scrubbing to satisfy HIPAA safeguards, Corrective RAG (CRAG) with verified clinical domain fallback, and 8-bit vector quantization (TurboVec) for fast inference on edge hardware.
+- **Tech Stack**: LangChain, Ollama, Neo4j, Microsoft Presidio (HIPAA PHI Redaction), HuggingFace embeddings, Tesseract OCR.
 
 ### [CLXI Engine](https://github.com/PankajKumar2804/clxi) — Technique Intelligence & Match Telemetry
 - **Recognition**: Built for the *Inside the Game* Hackathon hosted by **Microsoft Azure AI Foundry & the Premier League**.
@@ -53,7 +54,8 @@ I am a Software Engineer focused on building production-grade AI systems, data p
 | **Languages** | Python (AsyncIO, FastAPI), TypeScript / Node.js, Rust, SQL, Java |
 | **AI / ML & Vision** | LangChain, Neo4j (GraphRAG), PyTorch, HuggingFace, Ollama, scikit-learn, OpenCV |
 | **Data & Cloud** | Snowflake, Apache Kafka, Apache Spark, PostgreSQL, Redis, Docker, Azure |
-| **Standards & Workflows** | FHIR (Medplum contributor), n8n Automation, CI/CD, Microsoft Presidio (PHI) |
+| **Security & Compliance** | HIPAA (PHI redaction, Presidio), SOC 2 Type II controls, Audit Logging, Zero-Trust Air-Gap |
+| **Standards & Workflows** | FHIR (Medplum contributor), n8n Automation, CI/CD, Event-Driven Architecture |
 
 ---
 
